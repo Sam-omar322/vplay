@@ -1,0 +1,57 @@
+.log-sidebar {
+    background-color: #343a40;
+    color: #fff;
+    height: 570px;
+    border-radius: 10px;
+    width: 93%;
+    margin: 0 auto
+}
+
+.log-sidebar input {
+    background-color: #464d55;
+}
+
+.list-group .list-group-item {
+    background-color: #343a40;
+    color: #fff
+}
+
+.list-group .active {
+    background-color: rgb(34, 139, 34);
+    border-color: rgb(34, 139, 34);
+}
+
+.card .card-body {
+    width: 0;
+}
+
+.card .card-body .card-text {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+@media (max-width: 767px) {
+    .card .screen img,
+    .card .card-body {
+        width: 100%;
+    }
+}
+
+@media (min-width:  767px) and (max-width: 1999px) {
+    .icon-channel {
+        display: block;
+        margin-top: 7px;
+    }
+    .icon-channel img {
+        margin-right: 0px !important;
+    }
+}
+
+.card .screen .remove {
+    position: absolute;
+    color: #000;
+    right: 10px;
+    top: 8px;
+    cursor: pointer;
+}

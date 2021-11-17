@@ -1,0 +1,43 @@
+.video-section .card {
+    transform: translateY(0%);
+    background-color: #464d55;
+    color: #fff
+}
+
+.video-section .card {
+    position: relative;
+}
+
+.video-section .card #more {
+    display: none;
+}
+
+.video-section .card .watch-icons {
+    position: absolute;
+    bottom: 15px;
+    right: 23px;
+    cursor: pointer;
+}
+
+/* Comment Section */
+.comments .card {
+    transform: translateY(0%);
+}
+
+.comments .card .card-inner {
+    display: none;
+}
+
+.comments .details .dropdown-menu .dropdown-item:hover {
+    background-color: rgb(34, 139, 34);
+}
+
+.comments .details .form-group textarea:focus {
+    box-shadow: none;
+}
+
+@media (max-width: 554px) {
+    .comments .card .text-secondary {
+        font-size: 13px
+    }
+}

@@ -1,0 +1,34 @@
+#filter-icon {
+    cursor: pointer;
+}
+
+.filter-col {
+    display: none;
+}
+
+.card .card-body {
+    width: 0;
+}
+
+.card .card-body .card-text {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+@media (max-width: 767px) {
+    .card .screen img,
+    .card .card-body {
+        width: 100%;
+    }
+}
+
+@media (min-width:  767px) and (max-width: 991px) {
+    .icon-channel {
+        display: block;
+        margin-top: 7px;
+    }
+    .icon-channel img {
+        margin-right: 0px !important;
+    }
+}
